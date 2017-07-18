@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <search></search>
     <h1>{{ msg }}</h1>
     <footerMenu></footerMenu>
   </div>
@@ -14,7 +15,8 @@ export default {
     }
   },
   components: {
-    footerMenu: require('./menu.vue')
+    footerMenu: require('./menu.vue'),
+    search: require('./search.vue')
   }
 }
 </script>
